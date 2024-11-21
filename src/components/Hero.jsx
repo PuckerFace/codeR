@@ -18,11 +18,14 @@ const Hero = () => {
       <div className="flex justify-evenly my-10 items-center">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800  py-2 px-5 border rounded-md border-transparent mx-3"
+          className="bg-gradient-to-r from-orange-500 to-orange-800  py-2 px-5 border rounded-md border-transparent mx-3 hover:shadow-lg hover:shadow-neutral-700 "
         >
           Try Now
         </a>
-        <a href="#" className="py-2 px-4 border rounded-md">
+        <a
+          href="#"
+          className="py-2 px-4 border rounded-md hover:border hover:border-orange-600 hover:text-orange-600"
+        >
           Documentation
         </a>
       </div>
