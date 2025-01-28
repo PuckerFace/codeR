@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 const Features = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="relative mt-20   border-b border-neutral-800 min-h-[800px]">
       <div className="text-center">
         <span className="bg-neutral-900 text-orange-500 rounded-full font-medium p-4 uppercase">
           {' '}
@@ -94,12 +94,12 @@ const Features = () => {
 
         {/* next box */}
         <div className="flex">
-          <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
+          <div className="flex mx-6  h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
             <GlobeLock />
           </div>
           <div>
             <h5 className="mt-1 mb-6 text-xl">Live Deployment</h5>
-            <p className="text-neutral-500 ">
+            <p className="text-neutral-500 mb-6">
               Deploy your applications live immediately after production for
               global access.
             </p>

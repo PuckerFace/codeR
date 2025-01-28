@@ -1,10 +1,12 @@
 import { CheckCircle2 } from 'lucide-react';
 
 const Pricing = () => {
+  //
   return (
     <div className="mt-20">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-6 tracking-wide">
+      <h2 className=" text-center my-6 tracking-wide text-3xl sm:text-5xl lg:text-6xl uppercase bg-gradient-to-r from-orange-200 via-orange-500 to-orange-900 text-transparent bg-clip-text ">
         Pricing
+        <span className=""></span>
       </h2>
       <div className="grid">
         <div className="grid lg:grid-cols-3 sm:grid-cols-1  mt-10 lg:mt-20 gap-6 p-10">

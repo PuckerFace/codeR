@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-5xl lg:text-7xl text-center tracking-wide">
-        Number One Coding{' '}
+        Number One Coding <br />
         <span className="bg-gradient-to-r from-orange-500 via-orange-700 to-orange-900 text-transparent bg-clip-text ">
           AI Companion
         </span>

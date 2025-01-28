@@ -46,31 +46,33 @@ const Navbar = () => {
           </div>
         </div>
         {mobileOpen && (
-          <div className="fixed right-0 z-20 p-12  border-neutral-900 w-full flex flex-col justify-center items-center lg:hidden text-center">
-            <ul>
-              <li className="py-4">
-                <a href="#">Features</a>
-              </li>
-              <li className="py-4">
-                <a href="#">Workflow</a>
-              </li>
-              <li className="py-4">
-                <a href="#">Pricing</a>
-              </li>
-              <li className="py-4">
-                <a href="#">Testimonials</a>
-              </li>
-            </ul>
-            <div className="flex space-x-6">
-              <a href="#" className="py-2 px-4 border rounded-md">
-                Sign In
-              </a>
-              <a
-                href="#"
-                className="bg-gradient-to-r from-orange-600 to-orange-800  py-2 px-5 border rounded-md"
-              >
-                Sign Up
-              </a>
+          <div className="fixed right-0 z-20 p-12  border-neutral-900 w-full flex flex-col justify-center items-center lg:hidden text-center backdrop-blur-lg bg-black/80">
+            <div className=" px-4 mx-auto relative text-sm">
+              <ul>
+                <li className="py-4">
+                  <a href="#">Features</a>
+                </li>
+                <li className="py-4">
+                  <a href="#">Workflow</a>
+                </li>
+                <li className="py-4">
+                  <a href="#">Pricing</a>
+                </li>
+                <li className="py-4">
+                  <a href="#">Testimonials</a>
+                </li>
+              </ul>
+              <div className="flex space-x-6">
+                <a href="#" className="py-2 px-4 border rounded-md">
+                  Sign In
+                </a>
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-orange-600 to-orange-800  py-2 px-5 border rounded-md"
+                >
+                  Sign Up
+                </a>
+              </div>
             </div>
           </div>
         )}
