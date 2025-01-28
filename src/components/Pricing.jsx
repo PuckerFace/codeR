@@ -6,11 +6,9 @@ const Pricing = () => {
     <div className="mt-20">
       <h2 className=" text-center my-6 tracking-wide text-3xl sm:text-5xl lg:text-6xl uppercase bg-gradient-to-r from-orange-200 via-orange-500 to-orange-900 text-transparent bg-clip-text ">
         Pricing
-        <span className=""></span>
       </h2>
       <div className="grid">
-        <div className="grid lg:grid-cols-3 sm:grid-cols-1  mt-10 lg:mt-20 gap-6 p-10">
-          {/* <div className="w-full sm:w-1/2 lg:w-1/3 p-2"> */}
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1  mt-10 lg:mt-20 gap-6 p-4 lg:p-10">
           {/* free */}
           <div className="p-11 border border-neutral-700 rounded-xl">
             <h5 className="mt-1 mb-8 text-4xl">Free</h5>

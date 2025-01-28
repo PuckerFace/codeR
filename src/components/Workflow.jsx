@@ -11,16 +11,16 @@ const Workflow = () => {
           Acceleration
         </span>
       </h2>
-      <div className="flex flex-wrap items-center justify-center p-12">
+      <div className="flex flex-wrap items-center  justify-center py-12 lg:p-12">
         <div className="p-2 w-full lg:w-1/2 flex items-center justify-center">
           <img
             src={tech}
             alt="code"
-            className=" object-contain size-3/4 bg-center "
+            className=" object-contain size-full lg:size-3/4 bg-center "
           />
         </div>
-        <div className="pt-12 w-full lg:w-1/2">
-          <div className="flex mb-12">
+        <div className="pt-12 w-full lg:w-1/2 ">
+          <div className="flex mb-12 ">
             <div className="mx-6 bg-neutral-900 h-10 w-10 p-2 rounded-full justify-center items-center">
               <CheckCircle2 className="text-orange-600" />
             </div>

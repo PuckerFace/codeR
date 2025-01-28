@@ -29,13 +29,13 @@ const Hero = () => {
           Documentation
         </a>
       </div>
-      <div className="flex mt-10 justify-center ">
+      <div className="flex flex-col lg:flex-row mt-10 justify-center items-center">
         <video
           src={video1}
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border-orange-700 shadow-orange-500 mx-3 my-5"
+          className="rounded-lg w-full lg:w-1/2 border-orange-700 shadow-orange-500 mx-3 my-5"
         >
           {/* <source src={video1} type="video/mp4" /> */}
           <p>Your browser does not support the videos</p>
@@ -44,7 +44,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border-orange-700 shadow-orange-500 mx-3 my-5"
+          className="rounded-lg  w-full lg:w-1/2 border-orange-700 shadow-orange-500 mx-3 my-5"
         >
           <source src={video2} type="video/mp4" />
           <p>Your browser does not support the videos</p>
